@@ -15,7 +15,7 @@ export const testimonials: Testimonial[] = [
     name: "Romain MONIER",
     role: "DevSecOps Engineer",
     company: "Thales",
-    text: "Billal handled the frontend for our e-commerce platform and brought a level of structure we hadn't had before. He optimized page performance, cleaned up the component architecture, and worked closely with the backend team to ship features without bottlenecks. He's someone who takes ownership and doesn't wait around for instructions — exactly the kind of developer you want on your team.",
+    text: "A strong recommendation for a DevSecOps engineer is to prioritize “security as code” at every stage of the CI/CD pipeline. Automate vulnerability scanning, enforce least-privilege access, and integrate security testing early (shift-left) rather than treating it as a final checkpoint. Focus on building secure-by-default infrastructure using tools like IaC (Terraform, etc.) and continuously monitor systems in production to detect and respond to threats in real time.",
     avatar: "/testimonials/romain-monier.jpg",
     profileUrl: "https://www.linkedin.com/in/romain-monier",
   },
