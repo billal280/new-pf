@@ -1,10 +1,10 @@
 import { SiteConfig } from "~/types/data";
 
 export const siteConfig: SiteConfig = {
-  title: "Abhay Rana — Full Stack Developer",
+  title: "Billal Saidi — Cloud Software DevSecOps Engineer",
   description:
-    "Full Stack Developer specializing in React, Next.js, and Node.js. Building exceptional digital experiences with modern web technologies.",
-  url: "https://www.abhayrana.com",
+    "Cloud Software DevSecOps Engineer specializing in scalable automation and resilient deployments. Building exceptional digital experiences with modern cloud technologies.",
+  url: "https://billalsaidi.art",
   ogImage: "/og-image.png",
-  author: "Abhay Rana",
+  author: "Billal Saidi",
 };

@@ -7,45 +7,85 @@ export const skillCategories: SkillCategory[] = [
   {
     category: "Languages",
     skills: [
+      { name: "YAML", icon: `${SI}/yaml/red` },
+      { name: "Groovy", icon: `${SI}/apachegroovy/green` },
       { name: "JavaScript", icon: `${DI}/javascript/javascript-original.svg` },
-      { name: "TypeScript", icon: `${DI}/typescript/typescript-original.svg` },
       { name: "Python", icon: `${DI}/python/python-original.svg` },
+      { name: "Java", icon: `${DI}/java/java-original.svg` },
       { name: "HTML5", icon: `${DI}/html5/html5-original.svg` },
       { name: "CSS3", icon: `${DI}/css3/css3-original.svg` },
-      { name: "Solidity", icon: `${SI}/solidity/white` },
     ],
   },
   {
     category: "Frameworks & Libraries",
     skills: [
       { name: "React", icon: `${DI}/react/react-original.svg` },
-      { name: "Next.js", icon: `${SI}/nextdotjs/white` },
-      { name: "NestJS", icon: `${DI}/nestjs/nestjs-original.svg` },
       { name: "Node.js", icon: `${DI}/nodejs/nodejs-original.svg` },
-      { name: "Tailwind CSS", icon: `${DI}/tailwindcss/tailwindcss-original.svg` },
-      { name: "Framer Motion", icon: `${SI}/framer/0055FF` },
-      { name: "Prisma", icon: `${SI}/prisma/5A67D8` },
+      { name: "Django", icon: `${SI}/django/092E20` },
+      { name: "Spring", icon: `${SI}/spring/6DB33F` },
+    ],
+  },
+  {
+    category: "Infrastructure & Orchestration",
+    skills: [
+      { name: "Terraform", icon: `${DI}/terraform/terraform-original.svg` },
+      { name: "Docker", icon: `${DI}/docker/docker-original.svg` },
+      { name: "Kubernetes", icon: `${SI}/kubernetes/326CE5` },
+      { name: "Helm", icon: `${SI}/helm/0F1689` },
+    ],
+  },
+  {
+    category: "Integration and continuous deployment (CI/CD)",
+    skills: [
+      { name: "Jenkins", icon: `${DI}/jenkins/jenkins-original.svg` },
+      { name: "GitLab CI", icon: `${SI}/gitlab/FC6D26` },
+      { name: "ArgoCD", icon: `${SI}/argo/EF7B4D` },
+    ],
+  },
+  {
+    category: "Cloud Platforms",
+    skills: [
+      { name: "AWS", icon: `${DI}/amazonwebservices/amazonwebservices-original-wordmark.svg` },
+      { name: "GCP", icon: `${DI}/googlecloud/googlecloud-original.svg` },
+      { name: "Hetzner", icon: `${SI}/hetzner/D50C2D` },
     ],
   },
   {
     category: "Databases",
     skills: [
+      { name: "MySQL", icon: `${DI}/mysql/mysql-original.svg` },
       { name: "PostgreSQL", icon: `${DI}/postgresql/postgresql-original.svg` },
       { name: "MongoDB", icon: `${DI}/mongodb/mongodb-original.svg` },
-      { name: "Redis", icon: `${DI}/redis/redis-original.svg` },
     ],
   },
   {
-    category: "Tools & Platforms",
+    category: "Observability and ingestion",
     skills: [
-      { name: "Git", icon: `${DI}/git/git-original.svg` },
-      { name: "Docker", icon: `${DI}/docker/docker-original.svg` },
-      { name: "AWS", icon: `${DI}/amazonwebservices/amazonwebservices-original-wordmark.svg` },
-      { name: "Vercel", icon: `${SI}/vercel/white` },
-      { name: "Linux", icon: `${DI}/linux/linux-original.svg` },
-      { name: "Figma", icon: `${DI}/figma/figma-original.svg` },
-      { name: "Cloudflare", icon: `${DI}/cloudflare/cloudflare-original.svg` },
-      { name: "GraphQL", icon: `${DI}/graphql/graphql-plain.svg` },
+      { name: "OpenSearch", icon: `${SI}/opensearch/005EB8` },
+      { name: "ELK", icon: `${SI}/elastic/005571` },
+      { name: "Prometheus", icon: `${DI}/prometheus/prometheus-original.svg` },
+      { name: "Grafana", icon: `${DI}/grafana/grafana-original.svg` },
+      { name: "Logstash", icon: `${SI}/logstash/ECD53F` },
+      { name: "Kafka", icon: `${SI}/apachekafka/white` },
+
+
+    ],
+  },
+  {
+    category: "Security",
+    skills: [
+      { name: "Vault", icon: `${SI}/vault/FFEC6E` },
+      { name: "Keycloak", icon: `${SI}/keycloak/000000` },
+      { name: "TLS/mTLS", icon: `${SI}/istio/466BB0` },
+      { name: "SonarQube", icon: `${SI}/sonarqubeserver/126ED3` },
+      { name: "Trivy", icon: `${SI}/trivy/1904DA` },
+    ],
+  },
+  {
+    category: "Scripting & Automation",
+    skills: [
+      { name: "Bash", icon: `${DI}/bash/bash-original.svg` },
+      { name: "N8N", icon: `${SI}/n8n/EA4B71` },
     ],
   },
 ];

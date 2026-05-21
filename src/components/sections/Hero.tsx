@@ -62,9 +62,9 @@ export function Hero() {
           variants={fadeInUp}
           className="mt-6 text-xl sm:text-2xl text-[#a1a1aa] leading-relaxed"
         >
-          I build and craft digital experiences{" "}
+          I design and secure cloud infrastructure{" "}
           <br className="hidden sm:block" />
-          that deliver{" "}
+          with scalable automation and{" "}
           <span
             className="font-serif italic"
             style={{
@@ -73,7 +73,7 @@ export function Hero() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            real impact
+            resilient deployments
           </span>
         </motion.p>
 

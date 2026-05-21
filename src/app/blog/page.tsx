@@ -5,15 +5,15 @@ import { getAllPosts } from "~/lib/blog";
 import { BlogCard } from "~/components/ui/BlogCard";
 
 export const metadata: Metadata = {
-  title: "Blog | Abhay Rana",
+  title: "Blog | Billal Saidi",
   description:
-    "Articles on React, TypeScript, web development, architecture, and modern frontend tooling by Abhay Rana.",
-  alternates: { canonical: "https://www.abhayrana.com/blog" },
+    "Articles on React, TypeScript, web development, architecture, and modern frontend tooling by Billal Saidi.",
+  alternates: { canonical: "https://www.billalsaidi.com/blog" },
   openGraph: {
-    title: "Blog | Abhay Rana",
+    title: "Blog | Billal Saidi",
     description:
       "Articles on React, TypeScript, web development, architecture, and modern frontend tooling.",
-    url: "https://www.abhayrana.com/blog",
+    url: "https://www.billalsaidi.com/blog",
     type: "website",
   },
 };

@@ -10,7 +10,7 @@ published: true
 
 <div class="callout callout-tldr">
 <div class="callout-title">TL;DR</div>
-<p><code>npx create-modern-react my-app</code> gives you React 19 + TypeScript strict + Vite/SWC + Tailwind + shadcn/ui + routing + API layer + linting + 8 AI dev skills — in 15 seconds. No config hell. <a href="https://github.com/abhay-rana/create-modern-react">GitHub repo</a></p>
+<p><code>npx create-modern-react my-app</code> gives you React 19 + TypeScript strict + Vite/SWC + Tailwind + shadcn/ui + routing + API layer + linting + 8 AI dev skills — in 15 seconds. No config hell. <a href="https://github.com/billal280/create-modern-react">GitHub repo</a></p>
 </div>
 
 ## The Friday Night Problem
@@ -373,10 +373,10 @@ Here's the part where I ask you to run a command and star a repo.
 npx create-modern-react my-app
 ```
 
-If it saves you 47 minutes, [star it on GitHub](https://github.com/abhay-rana/create-modern-react). If something's broken, [open an issue](https://github.com/abhay-rana/create-modern-react/issues). If you want a feature, PRs are open.
+If it saves you 47 minutes, [star it on GitHub](https://github.com/create-modern-react). If something's broken, [open an issue](https://github.com/create-modern-react/issues). If you want a feature, PRs are open.
 
 I built this because I'm lazy in the way all good developers are lazy — I'd rather spend a week automating something than 47 minutes doing it by hand. Twice.
 
 ---
 
-*I'm [Abhay Rana](https://dev.to/abhay-rana) — I build tools so I can be lazier. Follow me for more React, TypeScript, and "I automated the boring part" content.*
+*I'm [Billal Saidi](https://dev.to) — I build tools so I can be lazier. Follow me for more React, TypeScript, and "I automated the boring part" content.*
