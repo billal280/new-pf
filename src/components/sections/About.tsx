@@ -113,7 +113,7 @@ export function About({ profileImages = [] }: AboutProps) {
 
               {/* Building Tools card */}
               <a
-                href="#projects"
+                href="#skills"
                 className="glass rounded-lg p-4 text-center transition-all duration-300 hover:shadow-[0_0_20px_rgba(239,68,68,0.15)] group/card flex flex-col items-center justify-center"
               >
                 <Wrench className="w-6 h-6 text-red-400 group-hover/card:rotate-12 transition-transform duration-300" />
