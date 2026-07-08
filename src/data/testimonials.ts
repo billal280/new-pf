@@ -11,15 +11,6 @@ export const testimonials: Testimonial[] = [
     profileUrl: "https://fr.linkedin.com/in/yann-ceccherini-792871207",
   },
   {
-    id: "test-2",
-    name: "Romain MONIER",
-    role: "DevSecOps Engineer",
-    company: "Thales",
-    text: "A strong recommendation for a DevSecOps engineer is to prioritize “security as code” at every stage of the CI/CD pipeline. Automate vulnerability scanning, enforce least-privilege access, and integrate security testing early (shift-left) rather than treating it as a final checkpoint. Focus on building secure-by-default infrastructure using tools like IaC (Terraform, etc.) and continuously monitor systems in production to detect and respond to threats in real time.",
-    avatar: "/testimonials/romain-monier.jpg",
-    profileUrl: "https://www.linkedin.com/in/romain-monier",
-  },
-  {
     id: "test-3",
     name: "Billel Souane",
     role: "Systems, Network & Security Engineer",
